@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Programa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="programa.css" />
+  </head>
+  <body>
+    <main class="program-page">
+      <div class="top-actions">
+        <a class="back-link" href="index.html">← Volver al inicio</a>
+        <button class="theme-toggle" type="button" data-theme-toggle>Modo negro</button>
+      </div>
+
+      <section class="detail-card">
+        <p class="kicker">Oferta academica</p>
+        <h1 id="courseTitle">Programa tecnico</h1>
+        <p id="courseSummary" class="summary"></p>
+
+        <div class="detail-grid">
+          <article>
+            <h2>Lo que aprenderas</h2>
+            <ul id="courseLearn"></ul>
+          </article>
+          <article>
+            <h2>Campo laboral</h2>
+            <ul id="courseJobs"></ul>
+          </article>
+          <article>
+            <h2>Perfil recomendado</h2>
+            <ul id="courseProfile"></ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="theme.js"></script>
+    <script src="programa.js"></script>
+  </body>
+</html>

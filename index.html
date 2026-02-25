@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universitaria de Colombia - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="brand">
+        <span class="brand-mark">U</span>
+        <span class="brand-text">niversitaria de Colombia</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegacion principal">
+        <div class="nav-item has-mega" id="ofertaAcademicaItem">
+          <button class="nav-trigger" id="ofertaTrigger" type="button" aria-expanded="false">
+            Oferta academica <span class="caret">⌄</span>
+          </button>
+
+          <section class="mega-menu" id="ofertaMegaMenu" aria-label="Menu de oferta academica">
+            <div class="mega-categories" role="tablist" aria-label="Niveles de formacion">
+              <button class="category-btn is-active" type="button" data-category="tecnicos">
+                Tecnicos Laborales
+                <span>›</span>
+              </button>
+              <button class="category-btn" type="button" data-category="profesionales">
+                Profesionales
+                <span>›</span>
+              </button>
+              <button class="category-btn" type="button" data-category="especializaciones">
+                Especializaciones
+                <span>›</span>
+              </button>
+              <button class="category-btn" type="button" data-category="internacional">
+                Internacional
+                <span>›</span>
+              </button>
+            </div>
+
+            <div class="mega-content">
+              <article class="program-list is-active" data-category="tecnicos">
+                <h3>Tecnicos Laborales</h3>
+                <ul class="program-links">
+                  <li><a href="programa.html?curso=aux-adm">Auxiliar Administrativo</a></li>
+                  <li><a href="programa.html?curso=aux-contable">Auxiliar Contable y Financiero</a></li>
+                  <li><a href="programa.html?curso=aux-talento">Auxiliar de Talento Humano</a></li>
+                  <li><a href="programa.html?curso=cocina">Cocina Nacional e Internacional</a></li>
+                  <li><a href="programa.html?curso=investigacion">Investigadores Criminalisticos y Judiciales</a></li>
+                  <li><a href="programa.html?curso=modas">Diseno, Confeccion y Mercadeo de Modas</a></li>
+                  <li><a href="programa.html?curso=veterinaria">Auxiliar en Clinica Veterinaria</a></li>
+                  <li><a href="programa.html?curso=enfermeria">Auxiliar en Enfermeria</a></li>
+                  <li><a href="programa.html?curso=idiomas">Conocimientos Academicos en Ingles y Frances</a></li>
+                  <li><a href="programa.html?curso=animacion">Animacion 2D y 3D</a></li>
+                  <li><a href="programa.html?curso=seguridad">Seguridad Ocupacional</a></li>
+                  <li><a href="programa.html?curso=software">Operaciones de Software y Redes de Computo</a></li>
+                </ul>
+              </article>
+
+              <article class="program-list" data-category="profesionales">
+                <h3>Programas Profesionales</h3>
+                <ul>
+                  <li>Administracion de Empresas</li>
+                  <li>Contaduria Publica</li>
+                  <li>Ingenieria de Sistemas</li>
+                  <li>Diseno Grafico Digital</li>
+                  <li>Derecho</li>
+                  <li>Negocios Internacionales</li>
+                  <li>Psicologia Organizacional</li>
+                  <li>Mercadeo y Publicidad</li>
+                  <li>Comunicacion Social</li>
+                </ul>
+              </article>
+
+              <article class="program-list" data-category="especializaciones">
+                <h3>Especializaciones</h3>
+                <ul>
+                  <li>Gerencia de Proyectos</li>
+                  <li>Finanzas Corporativas</li>
+                  <li>Analitica de Datos</li>
+                  <li>Seguridad y Salud en el Trabajo</li>
+                  <li>Transformacion Digital</li>
+                  <li>Docencia Universitaria</li>
+                  <li>Gerencia del Talento Humano</li>
+                  <li>Innovacion Educativa</li>
+                  <li>Marketing Estrategico</li>
+                </ul>
+              </article>
+
+              <article class="program-list" data-category="internacional">
+                <h3>Formacion Internacional</h3>
+                <ul>
+                  <li>Doble titulacion con aliados internacionales</li>
+                  <li>Intercambios academicos semestrales</li>
+                  <li>Cursos cortos en Canada y Espana</li>
+                  <li>Ruta de certificacion en ingles B2</li>
+                  <li>Seminarios con docentes extranjeros</li>
+                  <li>Practicas globales con empresas aliadas</li>
+                  <li>Movilidad virtual internacional</li>
+                  <li>Programas de verano academico</li>
+                  <li>Becas para estancias internacionales</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <a href="#">Soy Aspirante <span class="mini-caret">⌄</span></a>
+        <a href="#">Soy Estudiante <span class="mini-caret">⌄</span></a>
+        <a href="#">Investigacion <span class="mini-caret">⌄</span></a>
+        <a href="#">Quienes Somos</a>
+        <a href="#">Citas</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle>Modo negro</button>
+        <button class="cta-btn">Inscribete</button>
+      </div>
+    </header>
+
+    <div class="notice-bar">
+      Para notificaciones judiciales y envio de tutelas enviar a correo:
+      notificacionesjudicialesudc@gmail.com
+    </div>
+
+    <main>
+      <section class="tecnicos-search-section" aria-label="Buscador de tecnicos laborales">
+        <div class="tecnicos-search-shell">
+          <h2>Buscador de Tecnicos Laborales</h2>
+          <input
+            type="search"
+            id="tecnicosSearch"
+            class="program-search"
+            placeholder="Buscar tecnico laboral..."
+            aria-label="Buscar tecnicos laborales"
+          />
+
+          <ul class="tecnicos-results" id="tecnicosResults">
+            <li data-tecnico-item><a href="programa.html?curso=aux-adm">Auxiliar Administrativo</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=aux-contable">Auxiliar Contable y Financiero</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=aux-talento">Auxiliar de Talento Humano</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=cocina">Cocina Nacional e Internacional</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=investigacion">Investigadores Criminalisticos y Judiciales</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=modas">Diseno, Confeccion y Mercadeo de Modas</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=veterinaria">Auxiliar en Clinica Veterinaria</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=enfermeria">Auxiliar en Enfermeria</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=idiomas">Conocimientos Academicos en Ingles y Frances</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=animacion">Animacion 2D y 3D</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=seguridad">Seguridad Ocupacional</a></li>
+            <li data-tecnico-item><a href="programa.html?curso=software">Operaciones de Software y Redes de Computo</a></li>
+          </ul>
+
+          <p class="search-empty" id="tecnicosEmpty">No se encontraron tecnicos con ese nombre.</p>
+        </div>
+      </section>
+
+      <section class="hero" aria-label="Avisos institucionales">
+        <button class="carousel-arrow left" id="prevBtn" aria-label="Anterior">&lsaquo;</button>
+
+        <div class="carousel-track" id="carouselTrack">
+          <article class="slide active">
+            <div class="slide-copy">
+              <h1>AVISO IMPORTANTE</h1>
+              <p>
+                La Institucion Universitaria de Colombia advierte a la comunidad estudiantil
+                que no asume ningun tipo de responsabilidad por vehiculos automotores,
+                motocicletas o bicicletas dejadas en vias publicas alrededor de las sedes.
+              </p>
+            </div>
+            <div class="slide-figure">
+              <div class="blob"></div>
+              <div class="scooter">🛵</div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <div class="slide-copy">
+              <h1>COMUNICADO ACADEMICO</h1>
+              <p>
+                Revisa las fechas de matricula y el calendario del semestre para evitar
+                contratiempos. Consulta periodicamente el portal institucional para anuncios
+                oficiales y novedades.
+              </p>
+            </div>
+            <div class="slide-figure alt">
+              <div class="blob"></div>
+              <div class="scooter">🎓</div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <div class="slide-copy">
+              <h1>BIENESTAR UNIVERSITARIO</h1>
+              <p>
+                Conoce los programas de apoyo estudiantil, actividades deportivas y
+                acompanamiento psicosocial disponibles para fortalecer tu proceso formativo.
+              </p>
+            </div>
+            <div class="slide-figure alt-2">
+              <div class="blob"></div>
+              <div class="scooter">📚</div>
+            </div>
+          </article>
+        </div>
+
+        <button class="carousel-arrow right" id="nextBtn" aria-label="Siguiente">&rsaquo;</button>
+
+        <div class="dots" id="dots" aria-label="Indicadores del carrusel"></div>
+      </section>
+
+      <section class="quick-access" aria-label="Accesos directos">
+        <h2>Accesos Directos</h2>
+        <p class="subtitle">Encuentra rapidamente lo que necesitas</p>
+
+        <div class="cards-grid">
+          <article class="access-card">
+            <div class="icon">👤</div>
+            <h3>Inscribete a la U</h3>
+            <p>Proceso de admision</p>
+          </article>
+          <article class="access-card">
+            <div class="icon">📖</div>
+            <h3>Aula Virtual</h3>
+            <p>Plataforma educativa</p>
+          </article>
+          <article class="access-card">
+            <div class="icon">🎓</div>
+            <h3>Portal de Notas</h3>
+            <p>Consulta academica</p>
+          </article>
+          <article class="access-card">
+            <div class="icon">💳</div>
+            <h3>Pagos</h3>
+            <p>Pagos en linea</p>
+          </article>
+          <article class="access-card">
+            <div class="icon">📝</div>
+            <h3>Solicitudes</h3>
+            <p>Tramites academicos</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="extra-info" aria-label="Apartados inferiores">
+        <h2>Apartados de Informacion</h2>
+        <div class="extra-grid">
+          <article>
+            <h3>Informacion X</h3>
+            <p>Contenido de referencia para este apartado inferior de la pagina.</p>
+          </article>
+          <article>
+            <h3>Informacion X</h3>
+            <p>Bloque editable para agregar noticias, anuncios o recursos institucionales.</p>
+          </article>
+          <article>
+            <h3>Informacion X</h3>
+            <p>Espacio auxiliar con datos importantes para estudiantes y aspirantes.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="theme.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
